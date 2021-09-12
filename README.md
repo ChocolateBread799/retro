@@ -26,6 +26,9 @@
   sudo cp .bashrc .Xresources ~/.
   ```
 
+## Other
+ #[Startpage](https://chocolatebread799.github.io/Startpage/)
+
 ## Workspace
 ![workspace](https://user-images.githubusercontent.com/81292558/132967881-0d8f531f-c075-4648-b751-46a7243b5652.png)
 
