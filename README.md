@@ -16,16 +16,6 @@
 
   and [font](https://fonts.google.com/specimen/Azeret+Mono)
 
-2. install theme
-  
-  ```
-  git clone https://github.com/ChocolateBread799/retro
-  cd retro
-  sudo cp .config/* ~/.config
-  sudo cp -r .wallpaper .themes ~/.
-  sudo cp .bashrc .Xresources ~/.
-  ```
-
 ## Other
  [Startpage](https://chocolatebread799.github.io/Startpage/)
 
