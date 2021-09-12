@@ -26,3 +26,7 @@
   ```
 
 ## Workspace
+![workspace](https://user-images.githubusercontent.com/81292558/132967881-0d8f531f-c075-4648-b751-46a7243b5652.png)
+
+## Wallpaper
+![wallpaper color](https://user-images.githubusercontent.com/81292558/132967882-da183335-71fb-4edb-b4be-63194a984683.png)
