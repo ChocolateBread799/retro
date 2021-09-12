@@ -1,0 +1,13 @@
+#!/bin/dash
+
+# Compositor
+compton &
+
+# Resolution
+xrandr --output DP-1 --mode 1920x1080 --rate 164.97 &
+
+# Wallpaper
+feh --bg-max --randomize ~/.wallpaper/* &
+
+# Bar
+tint2 &

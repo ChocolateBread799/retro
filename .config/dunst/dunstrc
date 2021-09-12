@@ -1,0 +1,52 @@
+[global]
+monitor = 0
+follow = mouse
+geometry = "300x60-28+28"
+indicate_hidden = yes
+shrink = no
+transparency = 0
+notification_height = 0
+separator_height = 2
+padding = 24
+horizontal_padding = 24
+separator_color = frame
+sort = yes
+idle_threshold = 120
+font = Azeret Mono Bold 14
+line_height = 4
+markup = full
+format = "<b>%s</b>\n%b"
+alignment = left
+show_age_threshold = 60
+word_wrap = yes
+ellipsize = middle
+ignore_newline = no
+stack_duplicates = true
+hide_duplicate_count = true
+show_indicators = yes
+frame_width = 5
+frame_color = "#000000"
+
+[shortcuts]
+close = ctrl+shift+space
+close_all = ctrl+shift+space
+history = ctrl+grave
+context = ctrl+shift+period
+
+[urgency_low]
+timeout = 4
+background = "#ffffff"
+foreground = "#000000"
+frame_color = "#000000"
+
+[urgency_normal]
+timeout = 8
+background = "#ffffff"
+foreground = "#000000"
+frame_color = "#000000"
+
+[urgency_critical]
+timeout = 0
+background = "#ffffff"
+foreground = "#000000"
+frame_color = "#000000"

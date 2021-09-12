@@ -1,0 +1,26 @@
+#!/bin/sh
+
+## WM Name
+id_bloat=$(xprop -root _NET_SUPPORTING_WM_CHECK)
+id=${id_bloat##* }
+wm_bloat=$(xprop -id "$id" _NET_WM_NAME)
+
+## Get system info
+username="$(whoami)"
+distro=$(. /etc/os-release ; echo "$ID")
+shell="$(basename ${SHELL})"
+packages="$(pacman -Qq | wc -l)"
+wm="$(echo $wm_bloat | cut -d'"' -f 2)"
+rs="$(xwininfo -root | grep geometry | awk '{print $2}' | cut -d + -f1)"
+cpu="$(top -b -n1 | grep "Cpu(s)" | awk '{print $2 + $4}')%"
+ram="$(free | awk '/Mem/{printf("RAM Usage: %.2f%\n"), $3/$2*100}' |  awk '{print $3}' | cut -d"." -f1)%"
+
+cat <<EOF
+username - ${username}
+os - ${distro}
+wm - ${wm}
+sh - ${shell}
+resolution - ${rs}
+cpu - ${cpu}
+ram - ${ram}
+EOF

@@ -1,0 +1,164 @@
+configuration {
+lines:							6;
+columns:						1;
+font: 							"Azeret Mono Bold 12";
+    bw: 							0;
+    location: 						0;
+    padding: 						0;
+    fixed-num-lines: 				true;
+    show-icons: 					false;
+    sidebar-mode: 					true;
+    separator-style: 				"beam";
+    hide-scrollbar: 				true;
+    scroll-method: 					0;
+    click-to-exit: 					true;
+    show-match: 					false;
+    combi-hide-mode-prefix: 		false;
+    display-window: 				"Window";
+    display-windowcd: 				"Windowcd";
+    display-run: 					"Commands";
+    display-ssh: 					"Ssh";
+    display-drun: 					"start";
+    display-combi: 					"Combi";
+}
+
+window {
+padding: 20px;
+background-color:             	#ffffff;
+location:                       west;
+x-offset:                       10px;
+y-offset:                       150px;
+}
+
+* {
+    background-color:             	#ffffff;
+}
+
+window {
+    border: 						5px;
+    border-color: 					#000000;
+    width: 							20%;
+}
+
+prompt {
+    spacing: 						0;
+    border: 						0;
+    text-color: 					#000000;
+}
+
+textbox-prompt-colon {
+    expand: 						false;
+    str: 							"  ";
+    margin:							0px 4px 0px 0px;
+    text-color: 					inherit;
+}
+
+entry {
+    spacing:    					0;
+    text-color: 					#000000;
+}
+
+case-indicator {
+    spacing:    					0;
+    text-color: 					#000000;
+}
+
+inputbar {
+    spacing:    					0px;
+    text-color: 					#000000;
+    children: 						[ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+
+
+listview {
+    fixed-height: 					0;
+    border: 						0px;
+    border-color: 					#000000;
+    spacing: 						4px;
+    scrollbar: 						false;
+    padding: 						5px 5px 0px 5px;
+}
+
+element {
+    border: 						0px;
+    border-radius: 					6px;
+    padding: 						5px;
+}
+element normal.normal {
+    background-color: 				#ffffff;
+    text-color:       				#000000;
+}
+element normal.urgent {
+    background-color: 				#ffffff;
+    text-color:       				#000000;
+}
+element normal.active {
+    background-color: 				#000000;
+    text-color:       				#ffffff;
+}
+element selected.normal {
+    background-color: 				#000000;
+    text-color:       				#ffffff;
+}
+element selected.urgent {
+    background-color: 				#ffffff;
+    text-color:       				#000000;
+}
+element selected.active {
+    background-color: 				#000000;
+    text-color:       				#ffffff;
+}
+element alternate.normal {
+    background-color: 				#ffffff;
+    text-color:       				#000000;
+}
+element alternate.urgent {
+    background-color: 				#ffffff;
+    text-color:       				#000000;
+}
+element alternate.active {
+    background-color: 				#ffffff;
+    text-color:       				#000000;
+}
+
+sidebar {
+    border:       					0px;
+    border-color: 					#000000;
+    border-radius: 					10px;
+}
+
+button {
+    background-color:             	#000000;
+    margin: 						5px;
+    padding: 						5px;
+    text-color: 					#ffffff;
+    border: 						0px;
+    border-radius: 					6px;
+    border-color: 					#ffffff;
+}
+
+button selected {
+    background-color:             	#000000;
+    text-color: 					#ffffff;
+    border: 						0px;
+    border-radius: 					5px;
+    border-color: 					#ffffff;
+}
+
+scrollbar {
+    width:        					4px;
+    border:       					0px;
+    handle-color: 					#000000;
+    handle-width: 					8px;
+    padding:      					0;
+}
+
+message {
+    border: 						0px;
+    border-color: 					#000000;
+    padding: 						1px;
+}
+
+textbox {
+    text-color: 					#000000;
+}

@@ -1,0 +1,43 @@
+! special
+*.foreground:   #000000
+*.background:   #ffffff
+*.cursorColor:  #000000
+
+*color0: #353535
+*color1: #f92c2f
+*color2: #55dfa1
+*color3: #ede11c
+*color4: #2c4ff9
+*color5: #b12cf9
+*color6: #666666
+*color7: #2cc9f9
+*color8: #eeeeee
+*color9: #ff393c
+*color10: #6ffaaf
+*color11: #e2ea68
+*color12: #3987ff
+*color13: #db39ff
+*color14: #39caff
+*color15: #ffffff
+
+*font: xft:Azeret Mono:size=14:Bold
+
+*lineSpace:             5
+*letterSpace:           1
+*geometry:              40x10
+*internalBorder:        40
+*scrollBar:             false
+
+
+! xft fonts settings
+Xft.autohint:           0
+Xft.lcdfilter:          lcddefault
+Xft.hinting:            1
+Xft.hintstyle:          hintslight
+Xft.antialias:          1
+Xft.rgba:               rgb
+
+URxvt.perl-ext-common: config-reload
+
+URxvt.cursorBlink: 1
+URxvt.cursorUnderline: 1
