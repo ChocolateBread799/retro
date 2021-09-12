@@ -1,5 +1,5 @@
 !! Menu
-menu.border.width: 5
+menu.border.width: 3
 menu.border.color: #000000
 menu.overlap.x: -30
 menu.title.bg: flat
