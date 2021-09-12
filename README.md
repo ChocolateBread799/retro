@@ -4,7 +4,7 @@
 
 1. required apps _(in arch)_
   ```
-  yay -S feh rofi picom-ibhagwan-git openbox dunst
+  yay -S feh rofi picom-ibhagwan-git openbox dunst rxvt-unicode
   ```
   other distro
   - [picom](https://github.com/yshui/picom/blob/next/README.md#build)
@@ -12,6 +12,7 @@
   - [rofi](https://github.com/davatorium/rofi)
   - [feh](https://github.com/derf/feh)
   - [dunst](https://github.com/dunst-project/dunst)
+  - [urxvt](https://wiki.archlinux.org/title/rxvt-unicode)
 
   and [font](https://fonts.google.com/specimen/Azeret+Mono)
 
